@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for s in range(ord('b'), ord('f') - 1, -1):
-    print("{:b}".format((b - (ord('f') - ord('F'))) if s % 2 else s), end='')
+for c in range(ord('z'), ord('a') - 1, -1):
+    print("{:c}".format((c - (ord('a') - ord('A'))) if c % 2 else c), end='')
